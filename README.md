@@ -131,12 +131,6 @@ This project uses GitHub Actions to run automated Playwright tests when code is 
 
 The workflow runs the tests in Chromium and uploads the HTML test report as a workflow artifact.
 
-## Current Status
-
-* Manual test case documentation created.
-* Playwright UI automation implemented for authentication, products, cart, and checkout.
-* Page Object Model (POM) applied to organize page interactions.
-* GitHub Actions workflow configured and successfully executed.
 
 ## Repository
 
