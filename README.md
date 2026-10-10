@@ -25,9 +25,41 @@ The project covers functional testing of key user flows, including authenticatio
 
 ### Manual Testing
 
-Manual test cases are documented in Excel workbooks under `Test-Cases/`.
+Manual testing documentation is available in Excel workbooks under the `Test-Cases/` directory. The workbooks cover two user types: **Standard User** and **Problem User**, allowing the application to be tested under different user conditions.
 
-The documentation includes test cases for different application behaviors and user scenarios, with separate workbooks for the Standard User and Problem User.
+#### Testing Coverage
+
+The manual testing activities cover the following application features:
+
+* **Authentication:** Verify login functionality using valid and invalid credentials.
+* **Product Listing:** Verify product page behavior and product sorting functionality.
+* **Shopping Cart:** Test adding products to the cart, verifying cart contents, and removing products.
+* **Checkout:** Test the checkout workflow, including entering customer information and proceeding through the order process.
+* **Application Navigation:** Test available navigation options, including the About menu and Reset App State functionality.
+
+#### Test Case Documentation
+
+Each test case contains structured information to support test execution and result tracking:
+
+* **Test ID and Test Feature:** Identify each test case and the application feature being tested.
+* **Test Case Name:** Describe the functionality or behavior under test.
+* **Preconditions and Test Data:** Specify the conditions and data required before test execution.
+* **Test Steps:** Provide step-by-step instructions for executing the test.
+* **Expected Result:** Define the expected application behavior.
+* **Test Type and Test Result:** Classify the test and record its execution outcome.
+* **PIC, Date, and Incident ID:** Support execution tracking and incident references.
+
+#### Test Execution and Defect Documentation
+
+The workbooks also record test execution results and reported issues. Defect documentation includes details such as expected and actual results, severity, and priority where applicable.
+
+These records help document differences between expected and observed application behavior and provide a basis for further investigation. Findings are based on testing the practice application and are not necessarily confirmed defects against official product requirements.
+
+#### Documentation Files
+
+* `Test-Cases/QA-Testing-SwagLabs-Standard-User.xlsx`
+* `Test-Cases/QA-Testing-SwagLabs-Problem-User.xlsx`
+
 
 ### Automation Testing
 
