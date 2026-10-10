@@ -1,0 +1,6 @@
+.DS_Store
+~$*.xlsx
+
+Automation/playwright/node_modules/
+Automation/playwright/playwright-report/
+Automation/playwright/test-results/
